@@ -17,5 +17,9 @@ class School
       @roster[grade] = [@school]
     end
   end
+  
+  def grade(grade)
+    @grade = grade
+    @grade[student]
 
 end
