@@ -21,5 +21,6 @@ class School
   def grade(grade)
     @grade = grade
     @grade[student]
+  end
 
 end
