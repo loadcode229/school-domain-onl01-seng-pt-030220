@@ -1,12 +1,8 @@
 class School
   
-  attr_accessor :roster
-  
-  ROSTER = []
-  
-  def sort
-    @roster.sort
-  end
-    
+  ROSTERS = []
+  def initialize=(roster)
+    @roster = roster
+    ROSTERS << roster
 
 end
