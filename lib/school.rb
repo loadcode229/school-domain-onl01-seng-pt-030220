@@ -10,5 +10,11 @@ class School
     @roster
   end
   
+  def add_student=(student, grade)
+    @student, @grade = student, grade
+    
+  end
+    
+  
 
 end
