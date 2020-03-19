@@ -1,3 +1,4 @@
+require 'pry'
 class School
   
   ROSTERS = []
@@ -7,3 +8,4 @@ class School
   end
 
 end
+binding.pry
