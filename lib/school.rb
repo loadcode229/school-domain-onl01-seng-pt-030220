@@ -12,3 +12,4 @@ class School
   
 
 end
+binding.pry
