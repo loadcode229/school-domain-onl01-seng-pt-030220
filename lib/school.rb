@@ -1,8 +1,8 @@
 require 'pry'
 class School
   
-  def initialize(school)
-    @school = school
+  def initialize(name)
+    @name = name
     @roster = {}
   end
   
@@ -10,11 +10,11 @@ class School
     @roster
   end
   
-  def add_student(student, grade)
+  def add_student(name, grade)
     if student[grade] != nil
-      @roster[grade] << @school
+      @roster[grade] << @name
     else
-      @roster[grade] = [@school]
+      @roster[grade] = [@name]
     end
   end
   
