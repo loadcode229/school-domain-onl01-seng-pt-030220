@@ -14,7 +14,7 @@ class School
     if student[grade] != nil
       @roster.grade << school
     else
-      @roster[grade] = [schoool]
+      @roster[grade] = [school]
     end
   end
 
