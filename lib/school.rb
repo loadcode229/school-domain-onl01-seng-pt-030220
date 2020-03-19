@@ -11,7 +11,7 @@ class School
   end
   
   def add_student(name, grade)
-    if student[grade] != nil
+    if name[grade] != nil
       @roster[grade] << @name
     else
       @roster[grade] = [@name]
